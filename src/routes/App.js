@@ -5,7 +5,7 @@ import Home from "../pages/Home";
 import About from "../pages/About";
 import Halaman3 from '../pages/Halaman3';
 import Halaman4 from '../pages/Halaman4';
-import Halaman5 from '../pages/Halaman5';
+import Halaman5 from '../pages/Halaman5'; 
 import Halaman6 from '../pages/Halaman6';
 import Halaman7 from '../pages/Halaman7';
 import Halaman8 from '../pages/Halaman8';
