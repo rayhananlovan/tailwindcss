@@ -1,12 +1,17 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import background from '../images/1.jpg'
+
 const Halaman6 = () => {
   return (
     <div>
-    <div>Halaman6</div>
-    <div className="flex flex-wrap">
-<Link to={'/halaman7'} className="p-2 border-2 border-black"> Halaman 7</Link>
-   </div>
+    <div className='container p-8'>
+      <div className='p-10 transition border rounded-lg shadow-lg hover:scale-110'>
+      <div className='-mb-20 scale-50 float- -ml-72 h-96' style={{backgroundImage: `url(${background})`}}>
+    </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam illum iure dolorem provident commodi distinctio repudiandae, praesentium sed ab autem! Ratione quasi, consequatur sequi veritatis ipsam pariatur id qui sint libero molestias omnis dolorem molestiae maiores soluta facere possimus nesciunt rem ab, earum provident explicabo recusandae. Repellat, ullam. Quae, provident!</p>
+      </div>
+    </div>
     </div>
   )
 }
