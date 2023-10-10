@@ -43,7 +43,7 @@ const Halaman3 = () => {
       </section>
     </div>
     <div>
-    <div className='mt-32 max-w-xl mx-auto h-96 bg-slate-400 bg-contain rounded-2xl border-8 border-slate-800 opacity-80 blur-sm hover:blur-none' style={{backgroundImage: `url(${background})`}}>
+    <div className='max-w-xl mx-auto mt-32 bg-contain border-8 h-96 bg-slate-400 rounded-2xl border-slate-800 opacity-80 blur-sm hover:blur-none' style={{backgroundImage: `url(${background})`}}>
       <div className='w-full h-full bg-blue-500 mix-blend-multiply'></div>
     </div>
     </div>

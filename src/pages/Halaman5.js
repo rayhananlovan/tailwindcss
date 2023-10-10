@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import background from '../images/1.jpg'
+
 const Halaman5 = () => {
   return (
     <div>
@@ -15,7 +17,7 @@ const Halaman5 = () => {
     <div className='w-40 h-40 mx-auto mt-20 mb-20 transition rounded-full shadow-lg bg-sky-500 animate-bounce'>
       
     </div>
-   
+    
     </div>
   )
 }
