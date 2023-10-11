@@ -1,7 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { useState, useEffect } from 'react'
+import Navbar from '../components/Navbar';
 const Halaman4 = () => {
+  
   const [theme, setTheme] = useState("light");
 
   useEffect(() => {
@@ -18,6 +20,7 @@ const Halaman4 = () => {
   console.log(theme);
   return (
     <div className={`${theme}`}>
+      <Navbar/>
       <div className='h-screen bg-[#ffffff] bb dark:bg-black flex justify-center items-center'>
         <button className='p-4 bg-green-200 rounded-3xl' onClick={()=>setTheme(theme==='dark'? 'light': 'dark')}>
           Dark Mode

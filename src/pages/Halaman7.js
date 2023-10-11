@@ -1,10 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import background from '../images/1.jpg'
+import Navbar from '../components/Navbar'
 
 const Halaman7 = () => {
   return (
     <div>
+      <Navbar/>
     <div className='container max-w-md px-6 mx-auto sm:max-w-xl'>
       <h2 className='mt-2'>Rayhan</h2>
       <div className='w-auto mt-2 shadow-xl h-72 rounded-xl' style={{backgroundImage: `url(${background})`}}></div>

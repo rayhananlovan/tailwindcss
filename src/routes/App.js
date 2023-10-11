@@ -11,8 +11,7 @@ import Halaman7 from '../pages/Halaman7';
 import Halaman8 from '../pages/Halaman8';
 import Halaman9 from '../pages/Halaman9';
 import Halaman10 from '../pages/Halaman10';
-import Halaman11 from '../pages/Halaman11';
-import Halaman12 from '../pages/Halaman12';
+
 
 
 function App() {
@@ -29,8 +28,7 @@ function App() {
         <Route path='/halaman8' element={<Halaman8/>}/>
         <Route path='/halaman9' element={<Halaman9/>}/>
         <Route path='/halaman10' element={<Halaman10/>}/>
-        <Route path='/halaman11' element={<Halaman11/>}/>
-        <Route path='/halaman12' element={<Halaman12/>}/>
+        
       </Routes>
     </Router>
   );
