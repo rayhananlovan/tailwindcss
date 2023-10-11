@@ -1,10 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import background from '../images/1.jpg'
+import Navbar from '../components/Navbar'
 
 const Halaman3 = () => {
   return (
     <div>
+      <Navbar/>
     <div className='mb-10'>
     <div>Halaman3</div>  
     <div>
