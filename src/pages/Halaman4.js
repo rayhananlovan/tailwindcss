@@ -21,7 +21,7 @@ const Halaman4 = () => {
   return (
     <div className={`${theme}`}>
       <Navbar/>
-      <div className='h-screen bg-[#ffffff] bb dark:bg-black flex justify-center items-center'>
+      <div className='h-screen bg-[#ffffff]  dark:bg-black flex justify-center items-center'>
         <button className='p-4 bg-green-200 rounded-3xl' onClick={()=>setTheme(theme==='dark'? 'light': 'dark')}>
           Dark Mode
         </button>
