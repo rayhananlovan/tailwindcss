@@ -11,7 +11,7 @@ const Halaman5 = () => {
       
     </div>
     <div className='w-40 h-40 mx-auto mt-20 bg-pink-500 group'>
-      <div className='w-full h-full transition-transform duration-700 origin-top-left shadow-lg roundied-lg bg-sky-500 hover:rotate-45 group-hover:rotate-180'></div>
+      <div className='w-full h-full transition-transform duration-700 origin-top-left rounded-lg shad ow-lg bg-sky-500 hover:rotate-45 group-hover:rotate-180'></div>
     </div>
     <div className='w-40 h-40 mx-auto mt-20 mb-20 transition rounded-lg shadow-lg bg-sky-500 animate-spin'>
       

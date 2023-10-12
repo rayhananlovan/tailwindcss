@@ -5,9 +5,9 @@ import Navbar from "../components/Navbar";
 
 const Halaman6 = () => {
   return (
-    <div className="bg-red-900">
+    <div className="">
       <Navbar />
-      <div className="container p-8c">
+      <div className="container p-8 ml-6">
         <div className="p-10 transition border rounded-lg shadow-lg hover:scale-110">
           <div
             className="-mb-20 scale-50 float- -ml-72 h-96"
